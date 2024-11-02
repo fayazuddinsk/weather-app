@@ -105,3 +105,27 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media(max-width:470px) {
+    .card {
+        width: 100%;
+        max-width: 470px;
+    }
+}
+
+@media(max-width:375px) {
+    .card {
+        width: 100%;
+        max-width: 470px;
+    }
+
+    .search button img {
+        width: 25px;
+    }
+
+    .search input {
+        width: 60px;
+        height: 60px;
+        align-items: center;
+    }
+}
